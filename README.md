@@ -62,7 +62,9 @@ Como Executar o Projeto Localmente
 Cliente SQL de sua preferência (ex: DBeaver, pgAdmin, psql CLI). 
 
 
+
 Passo a Passo
  1. Clonar o Repositório;
 2.Crie um banco de dados no PostgreSQL chamado : olist_db
 3.importe os arquivos .csv do dataset da Olist para a base criada (ou execute o script de restauração/criação de schema se fornecido na pasta schema/). 
+4.Execute os arquivos .sql presentes no repositório na ordem alfabética indicada.
