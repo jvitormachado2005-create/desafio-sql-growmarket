@@ -57,6 +57,12 @@ Bloco I - Window Functions (Funcoes de Janela)
 - Q3: Percentual de participacao do vendedor no estado (OVER (PARTITION BY ...)).
 - Q4: Variacao mensal absoluta de vendas por vendedor (LAG()).
 
-Como Executar
-1. Certifique-se de possuir o banco PostgreSQL instalado com as tabelas do dataset Olist.
-2. Execute os scripts .sql na ordem alfabetica (bloco_A.sql ate bloco_I.sql).
+Como Executar o Projeto Localmente 
+ Pré-requisitos:  PostgreSQL instalado em sua máquina. 
+Cliente SQL de sua preferência (ex: DBeaver, pgAdmin, psql CLI). 
+
+
+Passo a Passo
+ 1. Clonar o Repositório;
+2.Crie um banco de dados no PostgreSQL chamado : olist_db
+3.importe os arquivos .csv do dataset da Olist para a base criada (ou execute o script de restauração/criação de schema se fornecido na pasta schema/). 
